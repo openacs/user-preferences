@@ -48,7 +48,7 @@ as
            value                        in user_preference_default_values.default_value%TYPE
         );
 
-        procedure delete (
+        procedure del (
            preference_type_id           in user_preference_types.preference_type_id%TYPE
         );
 end user_pref_type;
@@ -189,13 +189,13 @@ as
 
         end set_user_pref;        
 
-        procedure delete (
+        procedure del (
            preference_type_id           in user_preference_types.preference_type_id%TYPE
         )
         is
         begin
-           acs_object.delete(preference_type_id);
-        end delete; 
+           acs_object.del(preference_type_id);
+        end del; 
 
 end user_pref_type;
 /
