@@ -8,11 +8,9 @@
     <singleton-p>t</singleton-p>
 
     <version name="0.2d" url="http://openacs.org/repository/download/apm/user-preferences-0.2d.apm">
-    <database-support>
-        <database>oracle</database>
-        <database>postgresql</database>
-    </database-support>
-        <owner url="mailto:ben@openforce.net">Ben Adida</owner>
+        <owner url="http://openacs.org">OpenACS</owner>
+        <release-date>2003-11-10</release-date>
+        <vendor url="http://openacs.org">OpenACS</vendor>
 
         <!-- No dependency information -->
 
