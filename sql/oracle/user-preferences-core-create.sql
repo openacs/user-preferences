@@ -2,7 +2,7 @@
 --
 -- The User Preferences package
 --
--- Copyright 2002, OpenForce
+-- Copyright (C) 2000 MIT
 -- ben@openforce
 --
 -- distributed under the GPL v2
