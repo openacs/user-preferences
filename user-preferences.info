@@ -16,18 +16,6 @@
 
         <!-- No dependency information -->
 
-        <files>
-            <file type="data_model" db_type="oracle" path="sql/oracle/user-preferences-core-create.sql"/>
-            <file type="data_model" db_type="oracle" path="sql/oracle/user-preferences-core-drop.sql"/>
-            <file type="data_model_create" db_type="oracle" path="sql/oracle/user-preferences-create.sql"/>
-            <file type="data_model" db_type="oracle" path="sql/oracle/user-preferences-package-create.sql"/>
-            <file type="query_file" db_type="oracle" path="tcl/preference-procs-oracle.xql"/>
-            <file type="query_file" db_type="postgresql" path="tcl/preference-procs-postgresql.xql"/>
-            <file type="tcl_procs" path="tcl/preference-procs.tcl"/>
-            <file type="query_file" path="tcl/preference-procs.xql"/>
-            <file type="tcl_procs" path="tcl/preference-types-procs.tcl"/>
-            <file type="package_spec" path="user-preferences.info"/>
-        </files>
         <parameters>
         <!-- No version parameters -->
         </parameters>
