@@ -10,6 +10,7 @@
     <version name="0.2d" url="http://openacs.org/repository/download/apm/user-preferences-0.2d.apm">
         <owner url="http://openacs.org">OpenACS</owner>
         <release-date>2003-11-10</release-date>
+        <summary>A skeleton for how to implement user-preference storage</summary>
         <vendor url="http://openacs.org">OpenACS</vendor>
 
         <!-- No dependency information -->
