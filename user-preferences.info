@@ -7,7 +7,7 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>t</singleton-p>
 
-    <version name="0.4d" url="http://openacs.org/repository/download/apm/user-preferences-0.4d.apm">
+    <version name="0.5d" url="http://openacs.org/repository/download/apm/user-preferences-0.5d.apm">
         <owner url="http://openacs.org">OpenACS</owner>
         <release-date>2004-01-01</release-date>
         <summary>A skeleton for how to implement user-preference storage</summary>
