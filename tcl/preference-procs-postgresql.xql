@@ -12,10 +12,10 @@ select user_pref_type__set_package_default(
 </querytext>
 </fullquery>
 
-<fullquery name="preference::set_user_pref__set_user_pref">
+<fullquery name="preference::set_user_pref.set_user_pref">
 <querytext>
-select user_pref_type.set_user_pref(
-        :preference_type_id,
+select user_pref_type__set_user_pref(
+        :preference_type,
         :package_id,
         :user_id,
         :value
@@ -26,7 +26,7 @@ select user_pref_type.set_user_pref(
 <fullquery name="preference::get_user_pref.get_user_pref">
 <querytext>
 select user_pref_type__get_user_pref (
-           :preference_type_id,
+           :preference_type,
            :package_id,
            :user_id
       );
