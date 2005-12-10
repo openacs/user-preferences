@@ -13,6 +13,7 @@
         <summary>Support for user-preference storage</summary>
         <vendor url="http://openacs.org">OpenACS</vendor>
 
+        <provides url="user-preferences" version="0.5d3"/>
         <!-- No dependency information -->
 
         <parameters>
