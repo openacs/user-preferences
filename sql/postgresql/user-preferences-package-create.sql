@@ -181,7 +181,7 @@ returns int4 as '
 declare
            p_preference_type_id           alias for $1;
 begin
-           acs_object__del(p_preference_type_id);
+       PERFORM acs_object__del(p_preference_type_id);
 	   return 0;
 end;' language 'plpgsql';
 
